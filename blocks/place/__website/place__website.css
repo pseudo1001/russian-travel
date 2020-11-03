@@ -1,0 +1,14 @@
+.place__website {
+    max-height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 460px;
+}
+
+
+@media screen and (max-width: 648px) {
+    .place__website {
+        display: none;
+    }
+}

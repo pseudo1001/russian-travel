@@ -1,0 +1,9 @@
+.cover {
+    max-width: 1184px;
+    margin: auto;
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+}
+

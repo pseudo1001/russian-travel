@@ -1,0 +1,10 @@
+.place__row-title {
+    margin-bottom: 48px;
+}
+
+
+@media screen and (max-width: 760px){
+    .place__row-title {
+        margin-bottom: 32px;
+    }
+}
