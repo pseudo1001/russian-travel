@@ -1,8 +1,5 @@
-.header__lang-link li {
-display: inline;
-}
-
-.header__lang-link {
+.header__lang-link{
+display: flex;
 font-size: 24px;
 line-height: 28px;
 list-style: none;
@@ -10,27 +7,18 @@ padding-top: 46px;
 margin: 0;
 }
 
-.header__lang-link a{
-    text-decoration: none;
-    color: white;
+.header__lang-link .link:hover {
+opacity: 0.5;
 }
 
-.header__lang-link a:hover {
-    opacity: 0.5;
-}
-
-.header__lang-link li:nth-child(1) {
+.header__lang-link .link:nth-child(1n) {
 margin-right: 18px;
-text-decoration: underline;
 }
-
 
 @media screen and (max-width: 760px) {
-  
     .header__lang-link {
     padding-top: 30px;
-        margin: 0;
-        font-size: 18px;
-        line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
     }
     }

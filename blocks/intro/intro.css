@@ -1,28 +1,28 @@
 .intro {
-    text-align: left;
-    margin: auto;
-    max-width: 984px;
-    padding-bottom: 92px;
+text-align: left;
+margin: auto;
+max-width: 984px;
+padding-bottom: 92px;
 }
 
 
 @media screen and (max-width: 760px) {
     .intro {
-        padding-bottom: 64px;
-        margin: 0 5% 0 5%;
+    padding-bottom: 64px;
+    margin: 0 5% 0 5%;
     }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1020px) {
     .intro {
-        padding-bottom: 88px;
-        margin: 0 3% 0 3%;
+    padding-bottom: 88px;
+    margin: 0 3% 0 3%;
     }
 }
 
 
 @media screen and (min-width: 1020px) and (max-width: 1260px) {
     .intro {
-        max-width: 928px;
+    max-width: 928px;
     }
 }

@@ -1,0 +1,13 @@
+.place__website-link {
+margin: 0;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+font-style: normal;
+font-weight: 400;
+color: white;
+}
+
+.place__website-link:hover {
+opacity: 0.8;
+}

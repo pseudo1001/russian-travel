@@ -1,9 +1,15 @@
 .cover {
-    max-width: 1184px;
-    margin: auto;
-    display: flex;
-    margin-top: 0;
-    padding-top: 0;
-    position: relative;
+max-width: 1184px;
+margin: auto;
+display: flex;
+margin-top: 0;
+padding-top: 0;
+position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .cover {
+        max-width: 320px;
+    }
 }
 
