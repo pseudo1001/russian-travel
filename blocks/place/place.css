@@ -1,8 +1,9 @@
 .place {
     padding-bottom: 80px;
+    margin: 0;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
     .place {
         padding-bottom: 49px;
     }

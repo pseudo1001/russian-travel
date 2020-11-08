@@ -1,24 +1,16 @@
-.header__lang-link{
-display: flex;
-font-size: 24px;
-line-height: 28px;
-list-style: none;
-padding-top: 46px;
-margin: 0;
-}
-
-.header__lang-link .link:hover {
-opacity: 0.5;
-}
-
-.header__lang-link .link:nth-child(1n) {
-margin-right: 18px;
+.header__lang-link {
+    display: flex;
+    font-size: 24px;
+    line-height: 28px;
+    list-style: none;
+    padding-top: 46px;
+    margin: 0;
 }
 
 @media screen and (max-width: 760px) {
     .header__lang-link {
-    padding-top: 30px;
-    font-size: 18px;
-    line-height: 20px;
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 20px;
     }
-    }
+}

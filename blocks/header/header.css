@@ -1,26 +1,26 @@
 .header {
-max-width: 1184px;
-color: rgba(255, 255, 255, 1);
-font-family: 'Inter';
-font-weight: 400;
-display: flex;
-justify-content: space-between;
-margin-bottom: 0;
-padding-right: 48px;
-padding-left: 48px;
-margin: auto;
+    max-width: 1184px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin: auto;
 }
 
 @media screen and (max-width: 760px) {
     .header {
-    padding-right: 16px;
-    padding-left: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1020px) {
     .header {
-    padding-right: 24px;
-    padding-left: 24px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
 }
