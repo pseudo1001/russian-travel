@@ -1,16 +1,9 @@
 .header__lang-link {
-    display: flex;
-    font-size: 24px;
-    line-height: 28px;
-    list-style: none;
-    padding-top: 46px;
-    margin: 0;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
 }
 
-@media screen and (max-width: 760px) {
-    .header__lang-link {
-        padding-top: 30px;
-        font-size: 18px;
-        line-height: 20px;
-    }
+.header__lang-link:hover {
+    opacity: 0.5;
 }
